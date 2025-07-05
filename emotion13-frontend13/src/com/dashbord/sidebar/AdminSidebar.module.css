@@ -1,0 +1,29 @@
+.sidebar {
+  height: 100vh;
+  overflow: hidden; 
+}
+
+.menuContent {
+  padding-top: 20px;
+}
+
+.menuItem {
+  padding: 10px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.menuItem:hover {
+  background-color: #09437c;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.logoutButton {
+  color:  #09437c;
+  font-weight: bold;
+}

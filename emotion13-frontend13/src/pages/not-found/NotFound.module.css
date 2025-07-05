@@ -1,0 +1,30 @@
+.notFound {
+  text-align: center;
+  margin-top: 15%;
+  color: #022c57;
+}
+
+.notFound h1 {
+  font-size: 100px;
+  opacity: 0.2;
+}
+
+.notFound h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.notFound p {
+  margin-bottom: 20px;
+  color: #666;
+}
+.customBtn {
+  background-color: #1e3a8a !important;
+  color: white !important;
+  border: none !important;
+}
+
+.customBtn:hover {
+  background-color: #2563eb !important;
+}
+

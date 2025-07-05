@@ -1,0 +1,28 @@
+
+.dashboardLayout {
+  display: flex;         
+  flex-direction: row;   
+  height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  min-height: 100vh;
+  background-color: #1e1e1e;
+  color: #fff;
+  overflow-y: auto;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+  overflow-y: auto;
+  direction: ltr;       
+}
+
+
+
+
+
+

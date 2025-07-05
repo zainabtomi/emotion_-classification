@@ -1,0 +1,177 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 0px;
+  overflow: auto;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: none;
+  border: none;
+  padding: 30px 24px;
+  width: 50%;
+  max-width: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.iconAbove {
+  width: 400px;
+  height: 140px;
+  margin-bottom: 12px;
+  background-image: url("../../../assets/images/Logo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.signInTitle {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #eff0f3;
+  margin: 0;
+}
+
+.serverError {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+  font-size: 0.95rem;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.formGroup {
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label {
+  font-size: 1rem;
+  color: #eeecec;
+  margin-bottom: 4px;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #cbd5e1;
+  padding: 8px 4px;
+  font-size: 1rem;
+  outline: none;
+  background: #eeecec;
+}
+
+.input::placeholder {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.inputError {
+  border-bottom: 1px solid #ef4444 !important;
+}
+
+.fieldError {
+  color: #ef4444;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  min-height: 18px;
+}
+
+.forgotWrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.forgotLink {
+  font-size: 0.9rem;
+  color: #fbfbfd;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.forgotLink:hover {
+  color: #1e3a8a;
+  text-decoration: underline;
+}
+
+.footerText {
+  font-size: 0.95rem;
+  color: #f7f7f8;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.signUpLink {
+  color: #eff2f3;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.signUpLink:hover {
+  color: #f5f7f8;
+  text-decoration: underline;
+}
+
+
+.eyeIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #555555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-size: 20px;
+  transition: color 0.2s;
+}
+
+.eyeIcon:hover {
+  color: #333333;
+}
+
+
+@media (max-width: 480px) {
+  .card {
+    padding: 24px 20px;
+    max-width: 90%;
+    width: 90%;
+  }
+
+  .iconAbove {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .signInTitle {
+    font-size: 1.5rem;
+  }
+
+  .input {
+    font-size: 0.95rem;
+  }
+}

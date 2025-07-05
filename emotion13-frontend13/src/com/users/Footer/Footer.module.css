@@ -1,0 +1,27 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: transparent;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;
+}
+
+.footerText {
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    justify-content: center; /* حافظ على التوسيط */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 3.5rem;
+  }
+}

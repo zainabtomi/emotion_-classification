@@ -1,0 +1,35 @@
+/* ManageUsers.module.css */
+
+.container {
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.heading {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.tableWrapper {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.tableWrapper table {
+  margin-bottom: 0;
+}
+
+.actionBtn {
+  min-width: 80px;
+}
+
+.noData {
+  text-align: center;
+  padding: 2rem;
+  color: #777;
+  font-style: italic;
+}
